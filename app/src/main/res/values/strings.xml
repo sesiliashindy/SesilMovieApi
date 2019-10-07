@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="language_settings">Languange Settings</string>
+    <string name="movies_title">Movie</string>
+    <string name="tv_show_title">Tv Show</string>
+    <string name="desc">Gambar</string>
+    <string name="judul_movie">Movie Title</string>
+    <string name="year">Year</string>
+    <string name="overview">Overview</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="Language">Language</string>
+    <string name="favorited">Favorited</string>
+    <string name="search">Search</string>
+
+
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv">Search TvShow</string>
+    <string name="appwidget_text">Movie</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">No Data</string>
+    <string name="settings">Settings</string>
+    <string name="remainder_setting">Remainder Setting</string>
+
+    <string name="key_daily_remainder">daily_remainder</string>
+    <string name="pref_daily_title">Daily Title</string>
+    <string name="pref_release_Title">Release Title</string>
+    <string name="key_release_remainder">release_remainder</string>
+    <string name="message_remainder">Check Your Movie Catalogue now</string>
+
+</resources>

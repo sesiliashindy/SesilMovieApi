@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/tv_photo"
+        android:layout_width="145dp"
+        android:layout_height="210dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        tools:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="212dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+        android:text="@string/judul_movie"
+        android:textColor="@color/textBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/year"
+        android:textColor="@color/textBackground"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_vote_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/vote_average"
+        android:textColor="@color/textBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_year" />
+
+    <TextView
+        android:id="@+id/tv_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/vote_average"
+        android:textColor="@color/textBackground"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vote_judul" />
+
+    <TextView
+        android:id="@+id/tv_language_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/Language"
+        android:textColor="@color/textBackground"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vote" />
+
+    <TextView
+        android:id="@+id/tv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/Language"
+        android:textColor="@color/textBackground"
+        app:layout_constraintStart_toEndOf="@+id/tv_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_language_judul" />
+
+    <TextView
+        android:id="@+id/tv_overview_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/overview"
+        android:textColor="@color/textBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_photo" />
+
+    <TextView
+        android:id="@+id/tv_overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:text="@string/overview"
+        android:background="@color/back"
+        android:textColor="@color/textBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_overview_judul" />
+
+</android.support.constraint.ConstraintLayout>
